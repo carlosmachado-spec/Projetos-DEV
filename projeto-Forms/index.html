@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Envie seu curriculum</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Queremos te conhecer! Envie seu curriculum</h3>
+      </div>
+        <div class="form-container">
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+        <h3>Informe seus dados abaixo:</h3>
+        <div class="data">
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Digite seu nome"
+            required
+          />
+
+          <label for="nacionality">Nacionalidade:</label>
+          <input
+            type="text"
+            id="nacionality"
+            name="nacionality"
+            placeholder="Digite sua nacionalidade"
+            required
+          />
+
+          <label for="phone">Telefone:</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="Digite seu telefone"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu email"
+            required
+          />
+        </div>
+        <div class="academic">
+          <h3>Formação Acadêmica</h3>
+          <label for="course">Escolaridade:</label>
+          <select id="course" name="course" required>
+            <option value="selectedDisabledHidden">
+              Selecione o seu grau acadêmico
+            </option>
+            <option value="ensinoMedio">Ensino Médio</option>
+            <option value="ensinoSuperior">Ensino Superior</option>
+            <option value="posGraduacao">Pós Graduação</option>
+            <option value="mestrado">Mestrado</option>
+            <option value="doutorado">Doutorado</option>
+          </select>
+          <label for="institution">Instituição:</label>
+          <input
+            type="text"
+            id="institution"
+            name="institution"
+            placeholder="Digite sua instituição"
+            required
+          />
+          <label for="graduationYear">Ano de Conclusão:</label>
+          <input
+            type="text"
+            id="graduationYear"
+            name="graduationYear"
+            placeholder="Digite seu ano de conclusão"
+            required
+          />
+          <div class="additional-courses">
+            <h3>Cursos Complementares</h3>
+            <label for="additionalCourses">Cursos Adicionais:</label>
+            <input
+              type="text"
+              id="additionalCourses"
+              name="additionalCourses"
+              placeholder="Digite seus cursos adicionais"
+              required
+            />
+          </div>
+        </div>
+        <div class="adress">
+          <h3>Endereço</h3>
+          <label for="street">Rua:</label>
+          <input
+            type="text"
+            id="street"
+            name="street"
+            placeholder="Digite sua rua"
+            required
+          />
+          <label for="city">Cidade:</label>
+          <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="Digite sua cidade"
+            required
+          />
+          <label for="state">Estado:</label>
+          <input
+            type="text"
+            id="state"
+            name="state"
+            placeholder="Digite seu estado"
+            required
+          />
+          <label for="zip">CEP:</label>
+          <input
+            type="text"
+            id="zip"
+            name="zip"
+            placeholder="Digite seu CEP"
+            required
+          />
+        </div>
+        <div class="experience">
+          <h3>Experiência</h3>
+          <label for="company">Empresa:</label>
+            <input
+                type="text"
+                id="company"
+                name="company"
+                placeholder="Digite o nome da empresa"
+                required />
+          <label for="role">Cargo:</label>
+            <input
+                type="text"
+                id="role"
+                name="role"
+                placeholder="Digite seu cargo"
+                required />
+          <label for="experience">Descreva sua experiência:</label>
+          <input
+            type="text"
+            id="experience"
+            name="experience"
+            placeholder="Digite sua experiência"
+            required
+          />
+        </div>
+        <div class="upload">
+          <label for="resume">Currículo:</label>
+          <input
+            type="file"
+            id="resume"
+            name="resume"
+            accept=".pdf,.doc,.docx,.jpg"
+            required
+          />
+        </div>
+        <div class="message">
+          <label for="text">Fale um pouco sobre você:</label>
+          <textarea
+            name="text"
+            placeholder="Digite sua mensagem"
+            required
+          ></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Enviar" class="button" />
+        </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

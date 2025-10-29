@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ddd;
+}
+
+h1 {
+  color: #333;
+  justify-self: center;
+}
+h3 {
+  color: #555;
+  justify-self: center;
+}
+
+
+label {
+  color: #1b1b1b;
+  justify-self: center;
+}
+
+input {
+  border: none;
+  border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="file"],
+select {
+    justify-self: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+.form-container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  top: -70px;
+
+  
+}
+
+/* Page Header */
+.header {
+  height: 100px;
+  padding: 20px;
+  background-color: #202020f3;
+}
+.header h3{
+    color: rgb(219, 219, 219);
+}
+div {
+  margin-bottom: 10px;
+}
+
+div input,
+div label,
+div select,
+div textarea {
+  display: block;
+  width: 50%;
+}
+.button {
+  border-radius: 10%;
+  justify-self: center;
+}
