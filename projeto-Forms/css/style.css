@@ -17,10 +17,10 @@ h3 {
   justify-self: center;
 }
 
-
 label {
   color: #1b1b1b;
   justify-self: center;
+  padding-top: 20px;
 }
 
 input {
@@ -33,11 +33,12 @@ input[type="email"],
 textarea,
 input[type="file"],
 select {
-    justify-self: center;
+  justify-self: center;
   padding: 5px;
   border-radius: 5px;
   margin-top: 5px;
   box-sizing: border-box;
+  height: 40px;
 }
 .form-container {
   width: 60%;
@@ -46,8 +47,6 @@ select {
   padding: 20px;
   position: relative;
   top: -70px;
-
-  
 }
 
 /* Page Header */
@@ -56,8 +55,8 @@ select {
   padding: 20px;
   background-color: #202020f3;
 }
-.header h3{
-    color: rgb(219, 219, 219);
+.header h3 {
+  color: rgb(219, 219, 219);
 }
 div {
   margin-bottom: 10px;
@@ -73,4 +72,8 @@ div textarea {
 .button {
   border-radius: 10%;
   justify-self: center;
+  width: 200px;
+  height: 35px;
+  background-color: #0057ed;
+  color: white;
 }
