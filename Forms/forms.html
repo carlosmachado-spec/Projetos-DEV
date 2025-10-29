@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../Forms/css/style.css" />
+  </head>
+  <body>
+    <h2>Formulários</h2>
+    <!-- Formulário -->
+    <form action="register.php" method="get">
+      <div>
+        <label>Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required />
+      </div>
+      <div>
+        <label for="age">Idade:</label>
+        <input type="text" name="age" placeholder="Digite sua Idade" />
+      </div>
+      <!-- Email -->
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Digite seu email" />
+      </div>
+      <!-- Datas -->
+      <div>
+        <label for="birthday">Data de Nascimento:</label>
+        <input type="date" name="birthday" />
+      </div>
+      <!-- Select -->
+      <div>
+        <label for="job">Selecione sua Profissão</label>
+        <select name="job">
+          <option value="student">Estudante</option>
+          <option value="developerFrontEnd">Developer Front End</option>
+          <option value="developerBackEnd">Developer BackEnd</option>
+          <option value="developerFullStack">Developer Full Stack</option>
+        </select>
+      </div>
+      <!-- Area de texto -->
+      <div>
+        <label for="comment">Fale um pouco sobre você</label>
+        <textarea name="comment" placeholder="Escreva aqui..."></textarea>
+      </div>
+      <!-- Nome e sobrenome - Fieldset e Legend -->
+      <div>
+        <fieldset>
+          <legend>Preencha as suas informações</legend>
+          <label for="firstName">Nome:</label>
+          <input type="text" name="firstName" placeholder="Digite seu nome" />
+          <label for="lastName">Sobrenome:</label>
+          <input
+            type="text"
+            name="lastName"
+            placeholder="Digite seu sobrenome"
+          />
+        </fieldset>
+      </div>
+      <!-- Data list -->
+      <div>
+        <label for="flavor">Escolha seu sabor</label>
+        <input type="text" list="flavor" name="flavor" />
+        <datalist id="flavor">
+          <option value="Chocolate"></option>
+          <option value="Baunilha"></option>
+          <option value="Morango"></option>
+          <option value="Coco"></option>
+        </datalist>
+      </div>
+      <!-- Password -->
+      <div>
+        <label for="password">Senha:</label>
+        <input type="password" name="password" placeholder="Digite sua senha" />
+      </div>
+      <!-- Radio Button -->
+      <div>
+        <label for="carModel">Escolha o modelo do seu carro</label>
+        <div class="radio">
+          <input type="radio" name="carModel" value="BMW" />
+          <label for="BMW">BMW</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="carModel" value="Ferrari" />
+          <label for="Ferrari">Ferrari</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="carModel" value="Lamborghini" />
+          <label for="Lamborghini">Lamborghini</label>
+        </div>
+      </div>
+      <!-- Check Box -->
+      <div>
+        <label for="optionals">Opcionais do carro:</label>
+        <div class="radio">
+          <input type="checkbox" name="optionals[]" value="airConditioning" />
+          <label for="airConditioning">Ar Condicionado</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="optionals[]" value="powerSteering" />
+          <label for="powerSteering">Direção Hidráulica</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="optionals[]" value="powerLocks" />
+          <label for="powerLocks">Travas Elétricas</label>
+        </div>
+      </div>
+
+      <!-- Envio de arquivos -->
+      <div>
+        <label for="resume">Envie seu currículo:</label>
+        <input type="file" name="resume" />
+      </div>
+      <!-- Atributo select -->
+      <div>
+        <label for="contract"
+          >Você confirma que os dados acima estão corretos ?</label
+        >
+        <select name="contract">
+          <option value="yes">Sim</option>
+          <option value="no" selected>Não</option>
+        </select>
+      </div>
+      <!-- Botão de enviar -->
+      <div>
+        <input type="submit" value="Enviar" class="button" />
+      </div>
+    </form>
+  </body>
+</html>
