@@ -1,0 +1,38 @@
+.services {
+  padding: 5rem 0;
+}
+.services ul {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.services li {
+  flex: 1 1 200px;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.fas {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt{
+    color: #2cc50e;
+}
+.fa-rocket{
+    color: #ff5733;
+}
+.fa-comments {
+    color: #d1bd0b
+}
+
+.services h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.services p {
+  font-size: 16px;
+  line-height: 24px;
+}

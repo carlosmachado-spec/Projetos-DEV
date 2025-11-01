@@ -1,0 +1,43 @@
+.domain {
+  background: #34454e;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.domain h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+.domain p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #d5d5d5;
+}
+.domain input {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.domain input[type="text"] {
+  width: 60%;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.domain input[type="submit"] {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #2cc76a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.domain input[type="submit"]:hover {
+  opacity: 1;
+}
