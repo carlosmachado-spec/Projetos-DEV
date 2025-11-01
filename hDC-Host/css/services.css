@@ -36,3 +36,13 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+@media screen and (max-width: 576px) {
+  .services ul {
+    flex-direction: column;
+  }
+  .services li {
+    margin-bottom: 30px;
+  }
+  
+}

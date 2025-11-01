@@ -1,69 +1,100 @@
 .pricing {
-    padding-bottom: 5rem;
-    text-align: center;
+  padding-bottom: 5rem;
+  text-align: center;
 }
 .pricing h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
-.princing p{
- font-size: 20px;
+.princing p {
+  font-size: 20px;
 }
 
-.plans-container{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: 50px auto 0;
+.plans-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50px auto 0;
 }
 
-.plan{
-    flex: 1;
-    max-width: 275px;
-    margin: 20px 0;
+.plan {
+  flex: 1;
+  max-width: 275px;
+  margin: 20px 0;
 }
 
-.plan ul{
-    padding: 0;
+.plan ul {
+  padding: 0;
 }
 .plan li {
-    list-style: none;
-    height: 50px;
-    line-height: 50px;
-    background-color: #e8e9ea;
-    color: #333;
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  background-color: #e8e9ea;
+  color: #333;
 }
 
-.plan .price{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: #2cc762;
-    color: #fff;
-    text-align: center;
-    line-height: 120px;
-    margin: 0 auto -50px;
-    font-size: 18px;
-    position: relative;
+.plan .price {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #2cc762;
+  color: #fff;
+  text-align: center;
+  line-height: 120px;
+  margin: 0 auto -50px;
+  font-size: 18px;
+  position: relative;
 }
-.plan .plan-name{
-text-transform: uppercase;
-font-weight: bold;
-font-size: 20px;
-color: #FFF;
-background-color: #202b34;
-padding: 50px 0;
-}
-
-.plan .plan-btn{
-    background-color: #2cc762;
-    color: #fff;
-    font-size: 24px;
-    height: 75px;
-    line-height: 75px;
-    cursor: pointer;
+.plan .plan-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  background-color: #202b34;
+  padding: 50px 0;
 }
 
-.plan .recommended{
+.plan .plan-btn {
+  background-color: #2cc762;
+  color: #fff;
+  font-size: 24px;
+  height: 75px;
+  line-height: 75px;
+  cursor: pointer;
+}
 
-background-color: #0470c9;}
+.plan .recommended {
+  background-color: #0470c9;
+}
+
+@media screen and (max-width: 1030px) {
+  .plans-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .plan {
+    flex: 1 1 48%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .plans-container {
+    flex-direction: column;
+  }
+  .plan {
+    flex: 1 1 100%;
+    max-width: none;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .pricing h2 {
+    font-size: 2rem;
+  }
+  .prioncing p {
+    font-size: 1,5rem;
+
+  }
+}

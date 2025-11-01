@@ -41,3 +41,22 @@
 .domain input[type="submit"]:hover {
   opacity: 1;
 }
+
+
+@media screen and (max-width: 576px) {
+  .domain h2 {
+    font-size: 2rem;
+  }
+  .domain p {
+    font-size: 1rem;
+  }
+  .domain input[type="text"] {
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+  }
+  .domain input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}

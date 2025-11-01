@@ -19,3 +19,4 @@ loadComponents("services-placeholder", "../html/services.html");
 loadComponents("pricing-placeholder", "../html/pricing.html");
 loadComponents("domain-placeholder", "../html/domain.html");
 loadComponents("contact-placeholder", "../html/contact.html");  
+loadComponents("footer-placeholder", "../html/footer.html");  
