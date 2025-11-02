@@ -21,6 +21,7 @@
   flex: 1;
   max-width: 275px;
   margin: 20px 0;
+  gap: 10px;
 }
 
 .plan ul {
@@ -68,10 +69,11 @@
   background-color: #0470c9;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1230px) {
   .plans-container {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
   }
   .plan {
     flex: 1 1 48%;
@@ -80,7 +82,7 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 580px) {
   .plans-container {
     flex-direction: column;
   }
@@ -94,7 +96,6 @@
     font-size: 2rem;
   }
   .prioncing p {
-    font-size: 1,5rem;
-
+    font-size: 1, 5rem;
   }
 }
