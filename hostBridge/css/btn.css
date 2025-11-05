@@ -1,0 +1,12 @@
+.btn-login{
+    justify-items: center;
+    padding: 5px 40px;
+    margin-top: 20px;
+    background-color: #1a73e8;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}

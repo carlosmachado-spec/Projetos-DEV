@@ -4,6 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
+html,
+body {
+  height: 100%;
+}
 
 h1,
 h2,
@@ -15,7 +19,8 @@ p {
 }
 
 @media screen and (max-width: 576px) {
-  html,body {
+  html,
+  body {
     overflow-x: hidden;
   }
 }
