@@ -1,0 +1,17 @@
+#navbar{
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid #dddd;
+}
+
+#navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#nav-links{
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,28 @@
+
+
+.post-container{
+    flex: 3 1 0;
+}
+.post{
+    margin-bottom: 2.5rem;
+}
+
+.post img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.title,
+.description,
+.author{
+    margin-bottom: 1rem;
+}
+
+.title{
+font-size: 2rem;
+}
+
+.author{
+    color: #333;
+    font-weight: bold;
+}

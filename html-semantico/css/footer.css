@@ -1,0 +1,9 @@
+#footer{
+    border-top: 2px solid  #ddd;
+    padding: 3rem;
+    text-align: center;
+}
+#footer h2,
+#footer p{
+    margin-bottom: 1rem;
+}
