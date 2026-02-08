@@ -14,3 +14,10 @@ function criarCarro() {
   alert(`Parabéns o seu ${car.marca} foi criado com sucesso`);
   console.log(car);
 }
+
+
+const users = [ "Matheus", "João", "Pedro","Miguel","Maria"]
+
+for(let i = 0; i <users.length; i++){
+  console.log(`Listando o usuário: ${users[i]}`)
+}

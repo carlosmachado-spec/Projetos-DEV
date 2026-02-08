@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="/hostBridge/css/style.css" />
+
+<div class="background">
+  <div class="register">
+    <form class="registerForm">
+      <div>
+        <label for="name" class="name">Nome completo</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Ex: João da Silva"
+          class="block"
+        />
+        <span class="errorMessage" id="errorName"></span>
+      </div>
+      <div>
+        <label for="email" class="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder=" Seu Email"
+          class="block"
+        />
+      </div>
+      <div>
+        <label for="password" class="password">Senha</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Crie sua senha"
+          class="block"
+          required
+        />
+        <input
+          type="password"
+          name="repeatPassword"
+          placeholder=" Repita a senha"
+          class="block"
+          required
+        />
+        <span class="errorMessage" id="errorPassowrd"></span>
+      </div>
+      <button type="submit" class="btnGeral">Criar Conta</button>
+    </form>
+  </div>
+</div>
+
+<script src="/hostBridge/JavaScript/register.js" defer></script>

@@ -1,0 +1,64 @@
+/* CSS do Background */
+
+.background {
+  background-image: url(../img/login.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/*CSS do background do card de registro*/
+.register  {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px 40px;
+  border-radius: 12;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 380px;
+  width: 100%;
+}
+/* Formulário */
+
+.registerForm {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.registerForm div {
+  display: flex;
+  flex-direction: column;
+}
+.registerForm label {
+  font-weight: 500;
+  color: #444;
+  font-size: 0.9rem;
+}
+.block {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 03s ease;
+}
+
+.block:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 4px rgba (26, 115, 232, 0.3);
+}
+
+/* Mensagem de erro */
+
+.errorMessage{
+  color: #e57373; /* Um vermelho menos agressivo */
+  font-size: 0.85rem;
+  margin-top: 5px;
+  display: block;
+  transition: all 0.3s ease;
+}
