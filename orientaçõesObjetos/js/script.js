@@ -1,6 +1,6 @@
 // 01 - Métodos
 
-const animal = {
+/* const animal = {
   nome: "Atena",
   latir: function () {
     console.log("Au au");
@@ -26,4 +26,20 @@ console.log(pessoa.nome);
 
 pessoa.setNome("Ferdinand");
 
-console.log(pessoa.getNome());
+console.log(pessoa.getNome()); */
+
+// Object
+
+const animal = {
+  comer: function () {
+    console.log("Cachorro comendo");
+  },
+};
+
+const cachorro = Object.create(animal);
+cachorro.latir = function () {
+  console.log("Au Au");
+};
+
+cachorro.comer();
+cachorro.latir();
