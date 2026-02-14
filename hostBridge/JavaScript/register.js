@@ -22,6 +22,12 @@ document.addEventListener("DOMContentLoaded", () => {
       hasError = true;
     }
 
+    // validacao do CPF
+    if (!validateCPF(dadosObject.cpf)) {
+      document.getElementById("errorCPF").textContent = "CPF Invalido";
+      hasError = true;
+    }
+
     // Aqui se algo estiver errado ele não envia.
 
     if (hasError) {
