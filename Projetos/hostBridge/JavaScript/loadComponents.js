@@ -15,10 +15,10 @@ function loadComponents(placeholderId, filePath) {
       console.error(error);
     });
 }
-loadComponents("nav-placeholder", "../html/navbar.html");
-loadComponents("banner-placeholder", "../html/banner.html");
-loadComponents("services-placeholder", "../html/services.html");
-loadComponents("pricing-placeholder", "../html/pricing.html");
-loadComponents("domain-placeholder", "../html/domain.html");
-loadComponents("contact-placeholder", "../html/contact.html");
-loadComponents("footer-placeholder", "../html/footer.html");
+loadComponents("nav-placeholder", "/Projetos/hostBridge/html/navbar.html");
+loadComponents("banner-placeholder", "/Projetos/hostBridge/html/banner.html");
+loadComponents("services-placeholder", "/Projetos/hostBridge/html/services.html");
+loadComponents("pricing-placeholder", "/Projetos/hostBridge/html/pricing.html");
+loadComponents("domain-placeholder", "/Projetos/hostBridge/html/domain.html");
+loadComponents("contact-placeholder", "/Projetos/hostBridge/html/contact.html");
+loadComponents("footer-placeholder", "/Projetos/hostBridge/html/footer.html");
