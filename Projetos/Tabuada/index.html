@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JavaScript/script.js" defer></script>
+    <title>Tabuada</title>
+</head>
+
+<body>
+    <h2>Digite um número e confirme para gerar o calculo</h2>
+    <form id="multiplicationForm">
+        <div class="formControl">
+            <label for="multiplicator">Tabuado do:</label>
+            <input type="number" id="number" name="number" placeholder="1" required>
+        </div>
+        <div class="formControl">
+            <label for="multiplicator">Muliplicar até:</label>
+            <input type="number" id="multiplicator" name="multiplicator" value="10" required>
+        </div>
+        <input type="submit" value="Gerar Tabuada">
+    </form>
+    <div id="multiplicationTable">
+        <h2 id="multiplicationTitle">Tabuado do número: <span></span></h2>
+        <div id="multiplicationOperations">
+            <p>Informe um número para calcular uma tabuada...</p>
+        </div>
+    </div>
+</body>
+
+</html>
