@@ -60,3 +60,44 @@ h2.textContent = 'Subtitulo criado com JavaScript';
 
 // Aqui é onde o h2 vai ser inserido, ou seja, no lugar do title
 header.replaceChild(h2, title);
+
+
+//9 - CreateTextNode
+
+// Criação de um texto usando createTextNode, ele é criado na memória, ou seja, ainda não esta no DOM
+const myText = document.createTextNode('Texto criado por java script')
+
+console.log(myText);
+
+// Criando um elemento h3 para inserir o texto criado acima
+const h3 = document.createElement("h3")
+
+// Adicionando o texto criado ao elemento h3
+h3.appendChild(myText);
+
+// Agora o elemento h3 com o texto criado está pronto para ser inserido no DOM,
+//  aqui ele é adicionado ao main-container
+const mainContainer = document.getElementById("main-container");
+
+// O método appendChild é usado para adicionar o 
+// elemento h3 como filho do mainContainer
+mainContainer.appendChild(h3);
+
+// 10 - trabalhando com atributos
+
+// Aqui estou selecionando o primeiro link da nav, 
+// que é o link criado por JavaScript, para adicionar atributos a ele
+const firstlink = navLinks.querySelector('a');
+
+// Aqui estou usando o método setAttribute 
+// para adicionar o atributo href e target ao link
+firstlink.setAttribute("href", "https://google.com");
+firstlink.setAttribute("target", "_blank");
+
+// 11 - altura e largua
+const foot = document.querySelector('footer');
+
+// 12 - posicao elemento
+
+const product1 = product[0];
+console.log(product1.getBoundingClientRect());
