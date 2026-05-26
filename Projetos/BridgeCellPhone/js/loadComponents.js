@@ -16,4 +16,7 @@ function loadComponents(placeholderId, filePath) {
     });
 }
 
-loadcomponents("nav-placeholder", "/Projetos/BridgeCellPhone/html/navbar.html");
+loadComponents("navbar", "/Projetos/BridgeCellPhone/html/navbar.html");
+loadComponents("body", "/Projetos/BridgeCellPhone/html/body.html");
+loadComponents("bottomHeader", "/Projetos/BridgeCellPhone/html/bottomHeader.html");
+
