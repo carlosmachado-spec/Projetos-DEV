@@ -23,33 +23,33 @@
     font-size: 1.2rem;
 }
 
-#mainContent #subtitle{
+#mainContent #subtitle {
     margin: 1rem;
     font-size: 4rem;
     font-weight: bold;
 }
 
-#mainContent #drescription{
+#mainContent #drescription {
     max-width: 600px;
     margin: 1rem auto;
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-#mainContent #price{
+#mainContent #price {
     font-size: 1.3rem;
     color: #86868b;
     margin: 2rem;
 }
 
-#mainContent .btn{
+#mainContent .btn {
     font-size: 1.1rem;
     padding: .8rem 1.4rem;
     align-self: center;
 
 }
 
-#mainContent #productImage{
+#mainContent #productImage {
     max-width: 1000px;
     margin: 3rem auto;
     opacity: 1;
@@ -57,23 +57,62 @@
 }
 
 
-#mainContent #productImage .changing{
- opacity: .5;
+#mainContent #productImage .changing {
+    opacity: .5;
 }
 
-#imagePicker{
+#imagePicker {
     margin-bottom: 500px;
 }
 
-#imagePicker ul{
+#imagePicker ul {
     display: flex;
     justify-content: center;
 }
 
-#imagePicker li{
+#imagePicker li {
     margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+}
+
+#imagePicker li .color {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px;
+    border: 4px solid #fff;
+    pointer-events: none;
+}
+
+#imagePicker li .description {
+    font-size: .7rem;
+    color: #1d1d1d;
+    margin-top: .6rem;
+}
+
+#goldenGate .color {
+    background-color: #c77d64;
+}
+
+#niteroi .color {
+    background-color: #969491;
+}
+
+#brooklyn .color {
+    background-color: #665241;
+}
+
+#oresund .color {
+    background-color: #547d90;
+}
+
+#littleBelt .color {
+    background-color: #84857f;
+}
+
+.selected {
+    outline: 2px solid #43a1ff;
 }

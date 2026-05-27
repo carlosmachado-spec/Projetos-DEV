@@ -25,13 +25,13 @@
 }
 
 #bottomHeaderInner .btn, .btn{
-    background-color: rgb(151, 49, 29);
+    background-color: #0071e3;
     border-radius: 10rem;
     padding: .4rem 1rem;
     color: white;
 }
 
 .btn:hover{
-    background: linear-gradient(to right, rgb(54, 29, 36), rgb(19, 39, 58));
+    background: #0071e3 ;
     transition: 0.4s;
 }
