@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bezelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#425b73" />
+      <stop offset="40%" stop-color="#13273A" /> <stop offset="70%" stop-color="#361D24" /> <stop offset="100%" stop-color="#1d1014" />
+    </linearGradient>
+
+    <radialGradient id="faceGrad" cx="50%" cy="50%" r="50%" fx="35%" fy="35%">
+      <stop offset="0%" stop-color="#e2dadb" />
+      <stop offset="75%" stop-color="#c2b3b5" />
+      <stop offset="100%" stop-color="#9e8c90" />
+    </radialGradient>
+
+    <path id="textPathTop" d="M 100,256 A 156,156 0 1,1 412,256" />
+    <path id="textPathBottom" d="M 100,256 A 156,156 0 0,0 412,256" /> <filter id="logoShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#361D24" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <g filter="url(#logoShadow)">
+    <circle cx="256" cy="256" r="220" fill="url(#bezelGrad)" />
+    <circle cx="256" cy="256" r="206" fill="none" stroke="#97311D" stroke-width="5" />
+    <circle cx="256" cy="256" r="198" fill="#13273A" />
+    <circle cx="256" cy="256" r="182" fill="url(#faceGrad)" />
+  </g>
+
+  <text font-family="-apple-system, sans-serif" font-size="16px" font-weight="700" fill="#13273A" letter-spacing="2px">
+    <textPath href="#textPathTop" startOffset="50%" text-anchor="middle">BRIDGE CELLPHONE</textPath>
+  </text>
+
+  <text font-family="-apple-system, sans-serif" font-size="14px" font-weight="600" fill="#361D24" letter-spacing="2px">
+    <textPath href="#textPathBottom" startOffset="50%" text-anchor="middle">GLOBAL CONNECTIVITY</textPath>
+  </text>
+
+  <g stroke="#97311D" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 130,250 Q 155,210 190,175 Q 256,235 322,175 Q 357,210 382,250" stroke-width="6.5" />
+    
+    <path d="M 190,165 L 190,290" stroke-width="8.5" /> <path d="M 322,165 L 322,290" stroke-width="8.5" /> <path d="M 186,210 L 194,210 M 186,245 L 194,245" stroke-width="3" stroke="#361D24" />
+    <path d="M 318,210 L 326,210 M 318,245 L 326,245" stroke-width="3" stroke="#361D24" />
+
+    <path d="M 120,252 L 392,252" stroke-width="6" />
+    
+    <path d="M 212,214 L 212,252 M 234,223 L 234,252 M 256,226 L 256,252 M 278,223 L 278,252 M 300,214 L 300,252" stroke-width="2.5" />
+    <path d="M 150,226 L 150,252 M 170,198 L 170,252 M 342,198 L 342,252 M 362,226 L 362,252" stroke-width="2.5" />
+  </g>
+</svg>
