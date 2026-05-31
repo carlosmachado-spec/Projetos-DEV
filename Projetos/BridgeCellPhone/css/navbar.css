@@ -46,3 +46,16 @@ nav {
     display: block;
 }
 
+/* responsive */
+/* Mobile */
+
+@media (max-width: 600px){
+#navbar li {
+    display: none;
+}
+
+#navbar #logo{
+    display: flex;
+    align-items: left;
+}
+}

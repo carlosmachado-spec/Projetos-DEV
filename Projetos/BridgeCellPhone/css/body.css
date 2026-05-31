@@ -61,9 +61,7 @@
     opacity: .5;
 }
 
-#imagePicker {
-    margin-bottom: 500px;
-}
+
 
 #imagePicker ul {
     display: flex;
@@ -93,26 +91,89 @@
     margin-top: .6rem;
 }
 
-#goldenGate .color {
+#cellGoldenGate .color {
     background-color: #c77d64;
 }
 
-#niteroi .color {
+#cellNiteroi .color {
     background-color: #969491;
 }
 
-#brooklyn .color {
+#cellBrooklyn .color {
     background-color: #665241;
 }
 
-#oresund .color {
+#cellOresund .color {
     background-color: #547d90;
 }
 
-#littleBelt .color {
+#cellLittleBelt .color {
     background-color: #84857f;
 }
 
 .selected {
     outline: 2px solid #43a1ff;
+}
+
+#productImage {
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}
+
+#productImage .changing {
+    opacity: 0;
+}
+
+/* responsive */
+/* Mobile */
+@media (max-width: 600px) {
+    #mainContent {
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    #mainContent #subtitle {
+        font-size-adjust: 3rem;
+        display: none;
+    }
+
+    #imagePicker {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    #imagePicker img,
+    #imagePicker svg {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+    }
+
+    #imagePicker ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 8px;
+    }
+
+    #imagePicker li {
+        margin: 0.2rem;
+        width: 60px;
+        text-align: center;
+    }
+
+    #imagePicker li a,
+    #imagePicker li span,
+    #imagePicker li p {
+        font-size: 0.7rem;
+        line-height: 1.1;
+        display: block;
+        margin-top: 5px;
+    }
+
+    #ribbon p {
+        font-size: 0.7rem;
+    }
 }

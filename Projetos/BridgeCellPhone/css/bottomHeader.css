@@ -4,15 +4,15 @@
     border-bottom: 1px solid #ccc;
 }
 
-#header h3{
+#header h3 {
     font-size: 1.2rem;
 }
 
-#header a{
+#header a {
     color: #333;
 }
 
-#bottomHeaderInner{
+#bottomHeaderInner {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -20,18 +20,32 @@
     align-items: center;
 }
 
-#bottomHeaderInner a{
+#bottomHeaderInner a {
     margin: 0 0.5rem;
 }
 
-#bottomHeaderInner .btn, .btn{
+#bottomHeaderInner .btn,
+.btn {
     background-color: #0071e3;
     border-radius: 10rem;
     padding: .4rem 1rem;
     color: white;
 }
 
-.btn:hover{
-    background: #0071e3 ;
+.btn:hover {
+    background: #0071e3;
     transition: 0.4s;
+}
+
+/* responsive */
+/* Mobile */
+@media (max-width: 600px) {
+
+    #bottomHeaderInner a {
+        display: none;
+    }
+
+    #bottomHeaderInner .btn {
+        display: flex;
+    }
 }
